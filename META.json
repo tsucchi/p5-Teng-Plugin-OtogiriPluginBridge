@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Load Otogiri plugin into Teng",
    "author" : [
-      "Takuya Tsuchida <takuya.tsuchida@gmail.com>"
+      "Takuya Tsuchida <tsucchi@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v2.1.1, CPAN::Meta::Converter version 2.141170",
@@ -42,16 +42,35 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "DBI" : "0",
+            "Teng" : "0",
+            "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "DBIx::Otogiri" : "0",
+            "List::MoreUtils" : "0",
+            "Otogiri::Plugin::DeleteCascade" : "0",
+            "Otogiri::Plugin::TableInfo" : "0",
+            "Teng::Schema::Declare" : "0",
+            "Test::More" : "0.98",
+            "parent" : "0"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tsucchi/p5-Teng-Plugin-OtogiriPluginBridge/issues"
+      },
+      "homepage" : "https://github.com/tsucchi/p5-Teng-Plugin-OtogiriPluginBridge",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tsucchi/p5-Teng-Plugin-OtogiriPluginBridge.git",
+         "web" : "https://github.com/tsucchi/p5-Teng-Plugin-OtogiriPluginBridge"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:TSUCCHI"
 }

@@ -1,12 +1,18 @@
 # NAME
 
-Teng::Plugin::OtogiriPluginBridge - It's new $module
+Teng::Plugin::OtogiriPluginBridge - Load Otogiri plugin into Teng
 
 # SYNOPSIS
 
-    use Teng::Plugin::OtogiriPluginBridge;
+    use Teng
+
+    my $db = Teng->new( .. );
+    $db->load_plugin('OtogiriPluginBridge');
+    $db->load_otogiri_plugin('SomePlugin'); # Loads Otogiri::Plugin::SomePlugin
 
 # DESCRIPTION
+
+THIS SOFTWARE IS ALPHA QUALITY.
 
 Teng::Plugin::OtogiriPluginBridge is ...
 
@@ -19,4 +25,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-Takuya Tsuchida <takuya.tsuchida@gmail.com>
+Takuya Tsuchida <tsucchi@cpan.org>
