@@ -1,0 +1,6 @@
+name = "Teng-Plugin-OtogiriPluginBridge"
+# badges = ["travis"]
+authority="cpan:TSUCCHI"
+
+module_maker="ModuleBuildTiny"
+
