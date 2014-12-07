@@ -12,6 +12,6 @@ on test => sub {
     requires 'Teng::Schema::Declare';
     requires 'Test::More', '0.98';
     requires 'parent';
-    requires 'Otogiri::Plugin::TableInfo';
+    requires 'Otogiri::Plugin::TableInfo', '0.04';
     requires 'Otogiri::Plugin::DeleteCascade';
 };

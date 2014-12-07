@@ -52,7 +52,7 @@
             "DBIx::Otogiri" : "0",
             "List::MoreUtils" : "0",
             "Otogiri::Plugin::DeleteCascade" : "0",
-            "Otogiri::Plugin::TableInfo" : "0",
+            "Otogiri::Plugin::TableInfo" : "0.04",
             "Teng::Schema::Declare" : "0",
             "Test::More" : "0.98",
             "parent" : "0"
