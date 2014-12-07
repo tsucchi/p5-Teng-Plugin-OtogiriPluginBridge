@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/tsucchi/p5-Teng-Plugin-OtogiriPluginBridge.png?branch=master)](https://travis-ci.org/tsucchi/p5-Teng-Plugin-OtogiriPluginBridge) [![Coverage Status](https://coveralls.io/repos/tsucchi/p5-Teng-Plugin-OtogiriPluginBridge/badge.png?branch=master)](https://coveralls.io/r/tsucchi/p5-Teng-Plugin-OtogiriPluginBridge?branch=master)
 # NAME
 
 Teng::Plugin::OtogiriPluginBridge - Load Otogiri plugin into Teng
